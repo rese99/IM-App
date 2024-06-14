@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/New_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/input_background">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:src="@drawable/ic_friends_add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:gravity="start|center"
+            android:text="@string/newFriends"
+            app:layout_constraintEnd_toStartOf="@id/dot_red"
+            app:layout_constraintStart_toEndOf="@id/imageProfile"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/dot_red"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_24sdp"
+            android:gravity="start|center"
+            android:src="@drawable/dot_red"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp" />
+
+    <LinearLayout
+        android:id="@+id/Group_Chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/input_background">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:src="@drawable/ic_groups" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:gravity="start|center"
+            android:text="@string/Group_Chat" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_5sdp" />
+
+</LinearLayout>

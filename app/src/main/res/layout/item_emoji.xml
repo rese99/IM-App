@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji1"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji2"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji3"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji4"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji5"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji6"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji7"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji8"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji9"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+    <com.yun.IM.view.EmojiView
+        android:id="@+id/emoji10"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center" />
+
+</LinearLayout>
